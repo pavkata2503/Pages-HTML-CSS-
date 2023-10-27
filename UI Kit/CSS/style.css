@@ -1,0 +1,81 @@
+/* The code you provided is a CSS code block that defines global styles for a website's header. */
+
+/* Global Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.header-list {
+    
+    display: flex;
+}
+.header-item {
+    display: inline-block;
+    padding: 0.7em 1em;
+}
+.home-button{
+    padding: 0.7em 1em;
+}
+.login-button{
+    padding: 0.7em 1em;
+
+    border: none;
+    border-radius: 0.8em;
+
+    color: white;
+    background-color: red;
+}
+.register-button{
+    padding: 0.7em 1em;
+
+    border: none;
+    border-radius: 0.8em;
+
+    color: white;
+    background-color: red;
+}
+#container{
+    display: flex;
+    background-color: rgb(54, 221, 221);
+    height: 350px;
+}
+
+#get-started{
+    
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    background-color: rgb(231, 88, 37);
+    padding: 20px 40px 20px 35px ;
+}
+#text{
+    width: 50%;
+    text-align: center; /* Horizontally center text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center contents */
+    align-items: center; /* Horizontally center contents */
+}
+#image{
+    width: 50%;
+}
+#text-1{
+    font-size: 60px;
+    margin:35px 15px 15px 35px;
+}
+#text-2{
+    color: rgb(114, 114, 114);
+    margin:0px 15px 15px 35px;
+}
+#get-started{
+    
+    margin:0px 15px 15px 35px;
+}
