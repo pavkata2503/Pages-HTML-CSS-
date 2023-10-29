@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
-    background-color: grey;
+    background-color: White;
 }
 a{
     text-decoration: none;
@@ -27,6 +27,7 @@ a{
 }
 .home-button{
     padding: 1em;
+    color: #2D2D2D;
 }
 .login-button{
     padding: 0.7em 1em;
@@ -34,7 +35,7 @@ a{
     border: none;
     border-radius: 0.8em;
     color: white;
-    background-color: red;
+    background-color: #3366FF;
 }
 .register-button{
     padding: 0.7em 1em;
@@ -42,13 +43,14 @@ a{
     border: none;
     border-radius: 0.8em;
     color: white;
-    background-color: red;
+    background-color: #3366FF;
 }
 #container{
     display: flex;
-    background-color: #a39db4;
+    background-color: #F7F5FD;
     height: 600px;
     align-items: flex-start;
+    padding: 70px 100px 70px 100px;
 }
 
 #get-started{
@@ -63,17 +65,21 @@ a{
 }
 #text{
     width: 50%;
-    text-align: center; /* Horizontally center text */
+    height: 600px;
+    text-align: left; /* Horizontally center text */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center contents */
-    align-items: center; /* Horizontally center contents */
+    justify-content: flex-start; /* Vertically center contents */
+    align-items: flex-start; /* Horizontally center contents */
 }
 #image{
     width: 50%;
+    height: 600px;
 }
 #text-1{
+    align-items: flex-start;
     font-size: 60px;
+    text-align: left;
     margin:35px 15px 15px 35px;
     
 }
@@ -91,9 +97,10 @@ a{
     align-items: flex-start;
 }
 #header-image{
-    margin-top: 35px;
+    text-align: center; /* Horizontally center text */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; /* Vertically center contents */
     align-items: flex-start;
     gap: 114px;
 }
