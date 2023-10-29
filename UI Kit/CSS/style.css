@@ -30,19 +30,17 @@ a{
 }
 .login-button{
     padding: 0.7em 1em;
-
+    cursor: pointer;
     border: none;
     border-radius: 0.8em;
-
     color: white;
     background-color: red;
 }
 .register-button{
     padding: 0.7em 1em;
-
+    cursor: pointer;
     border: none;
     border-radius: 0.8em;
-
     color: white;
     background-color: red;
 }
@@ -77,6 +75,7 @@ a{
 #text-1{
     font-size: 60px;
     margin:35px 15px 15px 35px;
+    
 }
 #text-2{
     color: rgb(114, 114, 114);
