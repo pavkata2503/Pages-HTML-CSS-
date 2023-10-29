@@ -46,8 +46,8 @@ a{
 }
 #container{
     display: flex;
-    background-color: rgb(54, 221, 221);
-    height: 350px;
+    background-color: #a39db4;
+    height: 600px;
     align-items: flex-start;
 }
 
@@ -84,4 +84,16 @@ a{
 #get-started{
     
     margin:0px 15px 15px 35px;
+}
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#header-image{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 114px;
 }
